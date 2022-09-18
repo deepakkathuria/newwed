@@ -1,0 +1,9 @@
+com/wb/wedcell/MainActivity.java
+ com.wb.wedcellbussiness.MainActivity
+com/wb/wedcell/MainApplication.java
+ com.wb.wedcellbussiness.MainApplication
+ com.wb.wedcellbussiness.MainApplication$1
+com/wb/wedcellbussiness/BuildConfig.java
+ com.wb.wedcellbussiness.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Wedcell.iml" filepath="$PROJECT_DIR$/.idea/modules/Wedcell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Wedcell.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Wedcell.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1563382135/Wedcell.react-native-async-storage_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1563382135/Wedcell.react-native-async-storage_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1895636599/Wedcell.react-native-community_blur.iml" filepath="$PROJECT_DIR$/.idea/modules/-1895636599/Wedcell.react-native-community_blur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-349143067/Wedcell.react-native-community_checkbox.iml" filepath="$PROJECT_DIR$/.idea/modules/-349143067/Wedcell.react-native-community_checkbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-707288981/Wedcell.react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/-707288981/Wedcell.react-native-community_datetimepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/929414149/Wedcell.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/929414149/Wedcell.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/752520233/Wedcell.react-native-community_netinfo.iml" filepath="$PROJECT_DIR$/.idea/modules/752520233/Wedcell.react-native-community_netinfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1531840212/Wedcell.react-native-document-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1531840212/Wedcell.react-native-document-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-275263531/Wedcell.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-275263531/Wedcell.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-690159564/Wedcell.react-native-firebase_auth.iml" filepath="$PROJECT_DIR$/.idea/modules/-690159564/Wedcell.react-native-firebase_auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-872076616/Wedcell.react-native-firebase_messaging.iml" filepath="$PROJECT_DIR$/.idea/modules/-872076616/Wedcell.react-native-firebase_messaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1487664444/Wedcell.react-native-flipper.iml" filepath="$PROJECT_DIR$/.idea/modules/1487664444/Wedcell.react-native-flipper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-436120462/Wedcell.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-436120462/Wedcell.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-584544091/Wedcell.react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-584544091/Wedcell.react-native-image-crop-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/115919828/Wedcell.react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/115919828/Wedcell.react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1756720563/Wedcell.react-native-picker_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/1756720563/Wedcell.react-native-picker_picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-94844310/Wedcell.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-94844310/Wedcell.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1848567717/Wedcell.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1848567717/Wedcell.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-888988109/Wedcell.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-888988109/Wedcell.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/790915088/Wedcell.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/790915088/Wedcell.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1182908246/Wedcell.react-native-ui-lib.iml" filepath="$PROJECT_DIR$/.idea/modules/1182908246/Wedcell.react-native-ui-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1741187236/Wedcell.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1741187236/Wedcell.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>

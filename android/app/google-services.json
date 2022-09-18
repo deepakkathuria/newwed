@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "531390258037",
+    "project_id": "wedcell-d4d42",
+    "storage_bucket": "wedcell-d4d42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531390258037:android:68e831c596790615b0d13c",
+        "android_client_info": {
+          "package_name": "com.wb.wedcellbussiness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531390258037-p9bk2qidfkcgpkpc2dne1j8vju9onc5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDSHiVECz-7gBb76xtRjh69ulZeF1pGRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531390258037-p9bk2qidfkcgpkpc2dne1j8vju9onc5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,435 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wb.wedcellbussiness"
+4    android:versionCode="7"
+5    android:versionName="1.2.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:5:5-65
+12-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:6:5-80
+13-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:7:5-81
+14-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.150.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\b87d05f918e0a4a506b393ae89c78d6b\jetified-flipper-0.150.0\AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.150.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\b87d05f918e0a4a506b393ae89c78d6b\jetified-flipper-0.150.0\AndroidManifest.xml:16:22-73
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:react-native-community_netinfo] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-79
+16-->[:react-native-community_netinfo] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-community\netinfo\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[:react-native-firebase_auth] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+17-->[:react-native-firebase_auth] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+18
+19    <queries>
+19-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-14:15
+20        <intent>
+20-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-13:18
+21            <action android:name="android.media.action.IMAGE_CAPTURE" />
+21-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-73
+21-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:21-70
+22        </intent>
+23    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\32521b6682eb049cd5a66e17de2e6538\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:28:5-82
+24-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\32521b6682eb049cd5a66e17de2e6538\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:28:22-79
+25
+26    <application
+26-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:9:5-28:19
+27        android:name="com.wb.wedcellbussiness.MainApplication"
+27-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:10:7-38
+28        android:allowBackup="false"
+28-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:14:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.5.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\549f9dcdb78ce75461d3b02a2021397c\core-1.5.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:12:7-41
+32        android:label="@string/app_name"
+32-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:11:7-39
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:13:7-52
+34        android:theme="@style/SplashTheme"
+34-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:15:7-41
+35        android:usesCleartextTraffic="true" >
+35-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:16:7-42
+36        <activity
+36-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:17:7-27:18
+37            android:name="com.wb.wedcellbussiness.MainActivity"
+37-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:18:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+38-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:20:9-86
+39            android:label="@string/app_name"
+39-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:19:9-41
+40            android:launchMode="singleTask"
+40-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:21:9-40
+41            android:windowSoftInputMode="adjustResize" >
+41-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:22:9-51
+42            <intent-filter>
+42-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:23:9-26:25
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:24:13-65
+43-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:24:21-62
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:25:13-73
+45-->C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\android\app\src\main\AndroidManifest.xml:25:23-70
+46            </intent-filter>
+47        </activity>
+48
+49        <service
+49-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:40
+50            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+50-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-103
+51            android:exported="false" />
+51-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+52        <service
+52-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-25:19
+53            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+53-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-95
+54            android:exported="false" >
+54-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-37
+55            <intent-filter>
+55-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-24:29
+56                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+56-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:17-78
+56-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:25-75
+57            </intent-filter>
+58        </service>
+59
+60        <receiver
+60-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-34:20
+61            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+61-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-96
+62            android:exported="true"
+62-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-36
+63            android:permission="com.google.android.c2dm.permission.SEND" >
+63-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-73
+64            <intent-filter>
+64-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-33:29
+65                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+65-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-81
+65-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:25-78
+66            </intent-filter>
+67        </receiver>
+68
+69        <meta-data
+69-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-38:36
+70            android:name="firebase_messaging_auto_init_enabled"
+70-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-64
+71            android:value="true" />
+71-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-33
+72        <meta-data
+72-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-41:32
+73            android:name="com.google.firebase.messaging.default_notification_channel_id"
+73-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-89
+74            android:value="" />
+74-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-29
+75        <meta-data
+75-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-44:47
+76            android:name="com.google.firebase.messaging.default_notification_color"
+76-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-84
+77            android:resource="@color/white" />
+77-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-44
+78        <meta-data
+78-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-15:36
+79            android:name="app_data_collection_default_enabled"
+79-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-63
+80            android:value="true" />
+80-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-33
+81
+82        <service
+82-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-25:19
+83            android:name="com.google.firebase.components.ComponentDiscoveryService"
+83-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-84
+84            android:directBootAware="true"
+84-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-43
+85            android:exported="false" >
+85-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-37
+86            <meta-data
+86-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-24:85
+87                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+87-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:17-120
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:67:13-69:85
+90                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+90-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:68:17-109
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:69:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\32521b6682eb049cd5a66e17de2e6538\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:55:13-57:85
+93                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+93-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\32521b6682eb049cd5a66e17de2e6538\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:56:17-119
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\32521b6682eb049cd5a66e17de2e6538\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:57:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-datatransport:18.1.4] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\f5abcfe08001945ecd919c6c59be9465\jetified-firebase-datatransport-18.1.4\AndroidManifest.xml:28:13-30:85
+96                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+96-->[com.google.firebase:firebase-datatransport:18.1.4] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\f5abcfe08001945ecd919c6c59be9465\jetified-firebase-datatransport-18.1.4\AndroidManifest.xml:29:17-115
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-datatransport:18.1.4] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\f5abcfe08001945ecd919c6c59be9465\jetified-firebase-datatransport-18.1.4\AndroidManifest.xml:30:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\93a6e77f3ec8fdb5a76f40b4a38af544\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+99                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+99-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\93a6e77f3ec8fdb5a76f40b4a38af544\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\93a6e77f3ec8fdb5a76f40b4a38af544\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+101        </service>
+102
+103        <provider
+103-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-31:38
+104            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+104-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-88
+105            android:authorities="com.wb.wedcellbussiness.reactnativefirebaseappinitprovider"
+105-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-86
+106            android:exported="false"
+106-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-37
+107            android:initOrder="99" />
+107-->[:react-native-firebase_app] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-35
+108        <provider
+108-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-27:20
+109            android:name="androidx.core.content.FileProvider"
+109-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-62
+110            android:authorities="com.wb.wedcellbussiness.provider"
+110-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-60
+111            android:exported="false"
+111-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-37
+112            android:grantUriPermissions="true" >
+112-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-47
+113            <meta-data
+113-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-26:58
+114                android:name="android.support.FILE_PROVIDER_PATHS"
+114-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+115                android:resource="@xml/provider_paths" />
+115-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-55
+116        </provider>
+117
+118        <activity
+118-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-31:72
+119            android:name="com.yalantis.ucrop.UCropActivity"
+119-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-60
+120            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+120-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-69
+121
+122        <provider
+122-->[:react-native-image-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+123            android:name="com.imagepicker.ImagePickerProvider"
+123-->[:react-native-image-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-63
+124            android:authorities="com.wb.wedcellbussiness.imagepickerprovider"
+124-->[:react-native-image-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-71
+125            android:exported="false"
+125-->[:react-native-image-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+126            android:grantUriPermissions="true" >
+126-->[:react-native-image-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+127            <meta-data
+127-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-26:58
+128                android:name="android.support.FILE_PROVIDER_PATHS"
+128-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+129                android:resource="@xml/imagepicker_provider_paths" />
+129-->[:react-native-image-crop-picker] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-55
+130        </provider>
+131
+132        <activity
+132-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:27:9-44:20
+133            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+133-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:28:13-80
+134            android:excludeFromRecents="true"
+134-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:29:13-46
+135            android:exported="true"
+135-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:30:13-36
+136            android:launchMode="singleTask"
+136-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:31:13-44
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+137-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:32:13-72
+138            <intent-filter>
+138-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:33:13-43:29
+139                <action android:name="android.intent.action.VIEW" />
+139-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:34:17-69
+139-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:34:25-66
+140
+141                <category android:name="android.intent.category.DEFAULT" />
+141-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:36:17-76
+141-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:36:27-73
+142                <category android:name="android.intent.category.BROWSABLE" />
+142-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:37:17-78
+142-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:37:27-75
+143
+144                <data
+144-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:39:17-42:51
+145                    android:host="firebase.auth"
+145-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:40:21-49
+146                    android:path="/"
+146-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:41:21-37
+147                    android:scheme="genericidp" />
+147-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:42:21-48
+148            </intent-filter>
+149        </activity>
+150        <activity
+150-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:45:9-62:20
+151            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+151-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:46:13-79
+152            android:excludeFromRecents="true"
+152-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:47:13-46
+153            android:exported="true"
+153-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:48:13-36
+154            android:launchMode="singleTask"
+154-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:49:13-44
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+155-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:50:13-72
+156            <intent-filter>
+156-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:51:13-61:29
+157                <action android:name="android.intent.action.VIEW" />
+157-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:34:17-69
+157-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:34:25-66
+158
+159                <category android:name="android.intent.category.DEFAULT" />
+159-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:36:17-76
+159-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:36:27-73
+160                <category android:name="android.intent.category.BROWSABLE" />
+160-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:37:17-78
+160-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:37:27-75
+161
+162                <data
+162-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:39:17-42:51
+163                    android:host="firebase.auth"
+163-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:40:21-49
+164                    android:path="/"
+164-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:41:21-37
+165                    android:scheme="recaptcha" />
+165-->[com.google.firebase:firebase-auth:21.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:42:21-48
+166            </intent-filter>
+167        </activity>
+168
+169        <receiver
+169-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\32521b6682eb049cd5a66e17de2e6538\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:31:9-38:20
+170            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+170-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\32521b6682eb049cd5a66e17de2e6538\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:32:13-78
+171            android:exported="true"
+171-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\32521b6682eb049cd5a66e17de2e6538\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:33:13-36
+172            android:permission="com.google.android.c2dm.permission.SEND" >
+172-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\32521b6682eb049cd5a66e17de2e6538\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:34:13-73
+173            <intent-filter>
+173-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-33:29
+174                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+174-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-81
+174-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:25-78
+175            </intent-filter>
+176        </receiver>
+177        <!--
+178             FirebaseMessagingService performs security checks at runtime,
+179             but set to not exported to explicitly avoid allowing another app to call it.
+180        -->
+181        <service
+181-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\32521b6682eb049cd5a66e17de2e6538\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:44:9-51:19
+182            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+182-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\32521b6682eb049cd5a66e17de2e6538\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:45:13-82
+183            android:directBootAware="true"
+183-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\32521b6682eb049cd5a66e17de2e6538\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:46:13-43
+184            android:exported="false" >
+184-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\32521b6682eb049cd5a66e17de2e6538\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:47:13-37
+185            <intent-filter android:priority="-500" >
+185-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-24:29
+186                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+186-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:17-78
+186-->[:react-native-firebase_messaging] C:\Users\testm\Desktop\wedcell\wedcell-Bussiness\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:25-75
+187            </intent-filter>
+188        </service>
+189        <service
+189-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\dfb21ea3a5e0978b61675c6cf6ab980f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:29:9-35:19
+190            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+190-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\dfb21ea3a5e0978b61675c6cf6ab980f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:30:13-103
+191            android:exported="false" >
+191-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\dfb21ea3a5e0978b61675c6cf6ab980f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:31:13-37
+192            <meta-data
+192-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\dfb21ea3a5e0978b61675c6cf6ab980f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:32:13-34:39
+193                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+193-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\dfb21ea3a5e0978b61675c6cf6ab980f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:33:17-94
+194                android:value="cct" />
+194-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\dfb21ea3a5e0978b61675c6cf6ab980f\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:34:17-36
+195        </service>
+196        <service
+196-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\0cefc8ae2b1ddccaffe04790738efe7a\jetified-transport-runtime-3.1.5\AndroidManifest.xml:26:9-30:19
+197            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+197-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\0cefc8ae2b1ddccaffe04790738efe7a\jetified-transport-runtime-3.1.5\AndroidManifest.xml:27:13-117
+198            android:exported="false"
+198-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\0cefc8ae2b1ddccaffe04790738efe7a\jetified-transport-runtime-3.1.5\AndroidManifest.xml:28:13-37
+199            android:permission="android.permission.BIND_JOB_SERVICE" >
+199-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\0cefc8ae2b1ddccaffe04790738efe7a\jetified-transport-runtime-3.1.5\AndroidManifest.xml:29:13-69
+200        </service>
+201
+202        <receiver
+202-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\0cefc8ae2b1ddccaffe04790738efe7a\jetified-transport-runtime-3.1.5\AndroidManifest.xml:32:9-34:40
+203            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+203-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\0cefc8ae2b1ddccaffe04790738efe7a\jetified-transport-runtime-3.1.5\AndroidManifest.xml:33:13-132
+204            android:exported="false" />
+204-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\0cefc8ae2b1ddccaffe04790738efe7a\jetified-transport-runtime-3.1.5\AndroidManifest.xml:34:13-37
+205
+206        <provider
+206-->[com.google.firebase:firebase-common:20.1.1] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\1b09c5110e80e7f494447ef8b86f0eaf\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+207            android:name="com.google.firebase.provider.FirebaseInitProvider"
+207-->[com.google.firebase:firebase-common:20.1.1] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\1b09c5110e80e7f494447ef8b86f0eaf\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+208            android:authorities="com.wb.wedcellbussiness.firebaseinitprovider"
+208-->[com.google.firebase:firebase-common:20.1.1] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\1b09c5110e80e7f494447ef8b86f0eaf\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+209            android:directBootAware="true"
+209-->[com.google.firebase:firebase-common:20.1.1] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\1b09c5110e80e7f494447ef8b86f0eaf\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+210            android:exported="false"
+210-->[com.google.firebase:firebase-common:20.1.1] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\1b09c5110e80e7f494447ef8b86f0eaf\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+211            android:initOrder="100" />
+211-->[com.google.firebase:firebase-common:20.1.1] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\1b09c5110e80e7f494447ef8b86f0eaf\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+212
+213        <activity
+213-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\a3c32a6af57988ca623698d927e933da\jetified-play-services-auth-20.2.0\AndroidManifest.xml:23:9-27:75
+214            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+214-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\a3c32a6af57988ca623698d927e933da\jetified-play-services-auth-20.2.0\AndroidManifest.xml:24:13-93
+215            android:excludeFromRecents="true"
+215-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\a3c32a6af57988ca623698d927e933da\jetified-play-services-auth-20.2.0\AndroidManifest.xml:25:13-46
+216            android:exported="false"
+216-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\a3c32a6af57988ca623698d927e933da\jetified-play-services-auth-20.2.0\AndroidManifest.xml:26:13-37
+217            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+217-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\a3c32a6af57988ca623698d927e933da\jetified-play-services-auth-20.2.0\AndroidManifest.xml:27:13-72
+218        <!--
+219            Service handling Google Sign-In user revocation. For apps that do not integrate with
+220            Google Sign-In, this service will never be started.
+221        -->
+222        <service
+222-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\a3c32a6af57988ca623698d927e933da\jetified-play-services-auth-20.2.0\AndroidManifest.xml:33:9-37:51
+223            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+223-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\a3c32a6af57988ca623698d927e933da\jetified-play-services-auth-20.2.0\AndroidManifest.xml:34:13-89
+224            android:exported="true"
+224-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\a3c32a6af57988ca623698d927e933da\jetified-play-services-auth-20.2.0\AndroidManifest.xml:35:13-36
+225            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+225-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\a3c32a6af57988ca623698d927e933da\jetified-play-services-auth-20.2.0\AndroidManifest.xml:36:13-107
+226            android:visibleToInstantApps="true" />
+226-->[com.google.android.gms:play-services-auth:20.2.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\a3c32a6af57988ca623698d927e933da\jetified-play-services-auth-20.2.0\AndroidManifest.xml:37:13-48
+227
+228        <activity
+228-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\0afef05eb4199e1dfb1c5c4b6d2128c3\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+229            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+229-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\0afef05eb4199e1dfb1c5c4b6d2128c3\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+230            android:exported="false"
+230-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\0afef05eb4199e1dfb1c5c4b6d2128c3\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+231            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+231-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\0afef05eb4199e1dfb1c5c4b6d2128c3\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+232
+233        <meta-data
+233-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\0a6ac35ef17eb6546ba1fdb2976715b2\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+234            android:name="com.google.android.gms.version"
+234-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\0a6ac35ef17eb6546ba1fdb2976715b2\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+235            android:value="@integer/google_play_services_version" />
+235-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\testm\.gradle\caches\transforms-2\files-2.1\0a6ac35ef17eb6546ba1fdb2976715b2\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+236    </application>
+237
+238</manifest>
