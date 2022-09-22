@@ -140,7 +140,7 @@ const index = ({ navigation, route }) => {
                 borderRadius: 15, }}
                 resizeMode="cover"
                 source={{
-                  uri: 'http://192.168.1.8:8080/' + Item.mainImage,
+                  uri: 'http://192.168.2.122:8080/' + Item.mainImage,
                 }}
                 // loader={<LoaderScreen color="#FFF" />}
                 // animationDuration={100}
@@ -150,7 +150,7 @@ const index = ({ navigation, route }) => {
                 <View key={img}>
                   <Image
                     source={{
-                      uri: 'http://192.168.1.8:8080/' + img,
+                      uri: 'http://192.168.2.122:8080/' + img,
                     }}
                     style={{
                       resizeMode: 'cover',
@@ -352,7 +352,7 @@ const index = ({ navigation, route }) => {
                   <View key={item}>
                     <Image
                       source={{
-                        uri: 'http://192.168.1.8:8080/' + item,
+                        uri: 'http://192.168.2.122:8080/' + item,
                       }}
                       style={{
                         resizeMode: 'cover',
@@ -385,7 +385,7 @@ const index = ({ navigation, route }) => {
                       refRBSheet.current.open()
                     }}
                       source={{
-                        uri: 'http://192.168.1.8:8080/' + item.images[0],
+                        uri: 'http://192.168.2.122:8080/' + item.images[0],
                       }}
                       style={{
                         resizeMode: 'cover',
@@ -466,7 +466,7 @@ const index = ({ navigation, route }) => {
                 Item.brochure
                   ? () =>
                       Linking.openURL(
-                        'http://192.168.1.8:8080/' + Item.brochure,
+                        'http://192.168.2.122:8080/' + Item.brochure,
                       )
                   : console.log('No Brochure')
               }

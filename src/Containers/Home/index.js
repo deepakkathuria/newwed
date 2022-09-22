@@ -49,7 +49,7 @@ const index = ({ navigation, route }) => {
     }
     axios
       .post(
-        'http://192.168.1.8:8080/item/get',
+        'http://192.168.2.122:8080/item/get',
         {
           _id: user._id,
           category: category,

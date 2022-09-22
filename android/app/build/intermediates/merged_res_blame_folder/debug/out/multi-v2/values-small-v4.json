@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\testm\\Desktop\\wedcell\\wedcell-Bussiness\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "C:\\Users\\Hp\\Documents\\pj\\front\\wedcellBusiness_Front\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\testm\\.gradle\\caches\\transforms-2\\files-2.1\\c4f164e6311e6235632873f3c928d514\\material-1.1.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-2\\files-2.1\\c4f164e6311e6235632873f3c928d514\\material-1.1.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
