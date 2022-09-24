@@ -1022,8 +1022,13 @@ const ProductScreen = () => {
                       onChangeText={text => setnonVegPerPlate(text)}
                       floatingPlaceholderColor={InputColors}
                       underlineColor={InputColors}
+
                     />
-                    <Text text60 paddingV-5>
+                    <Text 
+                    text60 paddingV-5
+                    style={{                  color: '#e65c00', fontFamily: 'cursive'
+                  }}
+                    >
                       Amenities / Halls :
                     </Text>
                     <TableInpute

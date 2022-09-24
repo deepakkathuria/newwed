@@ -27,6 +27,8 @@ MERGED from [:react-native-screens] C:\Users\Hp\Documents\pj\front\wedcellBusine
 MERGED from [:react-native-svg] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-svg\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-ui-lib] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-ui-lib\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-video] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-video\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.react:react-native:0.64.1] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\d449f555abff0b6d09ce3ce580ddee40\jetified-react-native-0.64.1\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-auth:21.0.5] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:17:1-73:12
 MERGED from [androidx.browser:browser:1.4.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\9e6ffd265fc980ad2806c866cd4e694c\browser-1.4.0\AndroidManifest.xml:17:1-24:12
@@ -59,9 +61,11 @@ MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] C:\Users\Hp\.gradl
 MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\225c8bd8e93773a29cdcc17cb1686462\jetified-imagepipeline-base-2.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.github.yalantis:ucrop:2.2.6-native] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\4677c5a5aeea8790832c15f2ccb9a6ca\jetified-ucrop-2.2.6-native\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\c4f164e6311e6235632873f3c928d514\material-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.adityaxjha:Android-ScalableVideoView:10e7b4da8b] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\79a4578073b2dd6e3aecc1efec563578\jetified-Android-ScalableVideoView-10e7b4da8b\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\1c789169df83db1d5532be703f9b2e2b\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\ef7e3a053d1ae1c03aebefc8c8360526\sqlite-framework-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\3e17a49f65bdaba7b99d798198610624\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\ef016ad14895fb64f586f6021646445d\webkit-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\a3c32a6af57988ca623698d927e933da\jetified-play-services-auth-20.2.0\AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\0bd243492535ff8ae22da59526257ca2\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\2b0b89276f3aac5854c6cca1d5c89f9e\jetified-play-services-auth-api-phone-18.0.1\AndroidManifest.xml:2:1-7:12
@@ -173,6 +177,8 @@ MERGED from [:react-native-image-crop-picker] C:\Users\Hp\Documents\pj\front\wed
 MERGED from [:react-native-image-crop-picker] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-image-crop-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-32:19
 MERGED from [:react-native-image-picker] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
 MERGED from [:react-native-image-picker] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
 MERGED from [com.facebook.react:react-native:0.64.1] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\d449f555abff0b6d09ce3ce580ddee40\jetified-react-native-0.64.1\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.64.1] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\d449f555abff0b6d09ce3ce580ddee40\jetified-react-native-0.64.1\AndroidManifest.xml:11:5-20
 MERGED from [com.google.firebase:firebase-auth:21.0.5] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:26:5-71:19
@@ -305,6 +311,10 @@ MERGED from [:react-native-ui-lib] C:\Users\Hp\Documents\pj\front\wedcellBusines
 MERGED from [:react-native-ui-lib] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-ui-lib\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-video\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-video\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.1] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\d449f555abff0b6d09ce3ce580ddee40\jetified-react-native-0.64.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.1] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\d449f555abff0b6d09ce3ce580ddee40\jetified-react-native-0.64.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-auth:21.0.5] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:21:5-44
@@ -369,12 +379,16 @@ MERGED from [com.github.yalantis:ucrop:2.2.6-native] C:\Users\Hp\.gradle\caches\
 MERGED from [com.github.yalantis:ucrop:2.2.6-native] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\4677c5a5aeea8790832c15f2ccb9a6ca\jetified-ucrop-2.2.6-native\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\c4f164e6311e6235632873f3c928d514\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\c4f164e6311e6235632873f3c928d514\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.adityaxjha:Android-ScalableVideoView:10e7b4da8b] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\79a4578073b2dd6e3aecc1efec563578\jetified-Android-ScalableVideoView-10e7b4da8b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.adityaxjha:Android-ScalableVideoView:10e7b4da8b] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\79a4578073b2dd6e3aecc1efec563578\jetified-Android-ScalableVideoView-10e7b4da8b\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\1c789169df83db1d5532be703f9b2e2b\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\1c789169df83db1d5532be703f9b2e2b\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\ef7e3a053d1ae1c03aebefc8c8360526\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\ef7e3a053d1ae1c03aebefc8c8360526\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\3e17a49f65bdaba7b99d798198610624\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\3e17a49f65bdaba7b99d798198610624\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\ef016ad14895fb64f586f6021646445d\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\ef016ad14895fb64f586f6021646445d\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\a3c32a6af57988ca623698d927e933da\jetified-play-services-auth-20.2.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\a3c32a6af57988ca623698d927e933da\jetified-play-services-auth-20.2.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\0bd243492535ff8ae22da59526257ca2\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
@@ -653,6 +667,16 @@ ADDED from [:react-native-image-picker] C:\Users\Hp\Documents\pj\front\wedcellBu
 		ADDED from [:react-native-image-picker] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
 	android:name
 		ADDED from [:react-native-image-picker] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-63
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] C:\Users\Hp\Documents\pj\front\wedcellBusiness_Front\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:21.0.5] C:\Users\Hp\.gradle\caches\transforms-2\files-2.1\7117f880c729adf8c31fd8192a639ce9\jetified-firebase-auth-21.0.5\AndroidManifest.xml:27:9-44:20
 	android:excludeFromRecents

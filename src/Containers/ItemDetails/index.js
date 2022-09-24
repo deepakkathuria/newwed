@@ -8,6 +8,8 @@ import {
   Linking,
 } from 'react-native'
 import RBSheet from 'react-native-raw-bottom-sheet'
+import YoutubePlayer from "react-native-youtube-iframe";
+import WebView from 'react-native-webview';
 
 import {
   View,
@@ -37,6 +39,7 @@ const index = ({ navigation, route }) => {
   const dispatch = useDispatch()
   const userdata = useSelector(state => state.auth.value.userData)
   const Item = useSelector(state => state.item.value)
+  console.log(Item,"iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiit")
   console.log(Item, "item brochure............................manish")
   // const [Items, SetItems] = useState([])
   // const [Item.images, SetItem.images] = useState([])
@@ -45,6 +48,15 @@ const index = ({ navigation, route }) => {
   const [Loading, SetLoading] = useState(false)
   // const [Item, SetItem] = useState({})
   const [CurrentPage, setCurrentPage] = useState(0)
+
+  const [playing, setPlaying] = useState(false);
+
+  const togglePlaying = () => {
+    
+        setPlaying((prev) => !prev);
+    
+      }
+
   //const [Loading, SetLoading] = useState(true)
 
   // const descriptionParser = text => {
@@ -245,7 +257,10 @@ const index = ({ navigation, route }) => {
 
           {Item.amenities.length && Item.amenities[0].name !== '' ? (
             <View>
-              <Text text50>Amenities :</Text>
+              <Text text50
+              style={{ color: '#e65c00', fontFamily: 'cursive'
+            }}>
+              Amenities :</Text>
               <TableViewAmenity
                 values={Item.amenities}
                 label={['Amenity', 'Minimum Capacity', 'Maximum Capacity']}
@@ -304,6 +319,7 @@ const index = ({ navigation, route }) => {
                   paddingVertical: 10,
                   borderBottomColor: '#ff4d4d',
                   borderBottomWidth: CurrentPage === 0 ? 2 : 0,
+                  color: '#e65c00', fontFamily: 'cursive'
                 }}
                 text50BL
               >
@@ -316,6 +332,9 @@ const index = ({ navigation, route }) => {
                   paddingVertical: 10,
                   borderBottomColor: '#ff4d4d',
                   borderBottomWidth: CurrentPage === 1 ? 2 : 0,
+                  color: '#e65c00', 
+                  fontFamily: 'cursive'
+
                 }}
                 text50BL
               >
@@ -328,6 +347,8 @@ const index = ({ navigation, route }) => {
                   paddingVertical: 10,
                   borderBottomColor: '#ff4d4d',
                   borderBottomWidth: CurrentPage === 2 ? 2 : 0,
+                  color: '#e65c00', fontFamily: 'cursive'
+
                 }}
                 text50BL
               >
@@ -434,17 +455,44 @@ const index = ({ navigation, route }) => {
                 renderItem={({ item,index }) => {
                   var regExp = /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
                   var match = item.match(regExp);
+                  console.log(match,"matchhhhhhhhhhhhhhhhh")
                   let videoLink 
                   if (match && match[2].length == 11) {
                    videoLink=match[2];
+                   console.log(typeof(videoLink),"videolinkkkkkkkkkkkkkkkkkkkkkkkkkk")
+
                 } else {
                  //error
                   }
                   return(
                   <View key={item}>
-                    <TouchableOpacity onPress={()=> Linking.openURL(`https://www.youtube.com/watch?v=${videoLink}`)}>
+                    <YoutubePlayer
+                    height={5000}
+                    play={playing}
+                    videoId={videoLink}
+                    allowsFullscreenVideo={true}
+                    scalesPageToFit={true}
+            />
+            {/* <WebView
+    style={{ alignSelf: 'stretch' }}
+    scalesPageToFit={true}
+        source={{uri:`https://www.youtube.com/watch?v=${videoLink}`}}
+    /> */}
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    {/* <TouchableOpacity onPress={()=> Linking.openURL(`https://www.youtube.com/watch?v=${videoLink}`)}>
                     <Text>{`Video Title ${index+1}`}, Click Me</Text>
-                    </TouchableOpacity>
+                    </TouchableOpacity> */}
                   </View>
                 )}}
               />
