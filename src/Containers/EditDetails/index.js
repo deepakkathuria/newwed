@@ -1036,7 +1036,9 @@ const ProductScreen = () => {
                       values={amenities}
                       handleUpdates={setamenities}
                     />
-                    <Text text60 paddingV-5>
+                    <Text 
+                    text60 paddingV-5
+                >
                       Vendor Allow Policy :
                     </Text>
                     <TableInpute
@@ -1056,7 +1058,10 @@ const ProductScreen = () => {
                   values={plans}
                 />
 
-                <Text text60 paddingV-5>
+                <Text 
+                text60 paddingV-5
+                style={{                  color: '#e65c00', fontFamily: 'cursive'
+              }}>
                   Features :
                 </Text>
                 <TableInpute

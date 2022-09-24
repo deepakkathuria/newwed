@@ -245,7 +245,12 @@ const index = ({ navigation, route }) => {
           </View>
           {Item.type === 'Venue' ? (
             <View paddingT-20>
-              <Text text50>Vendor Allow Policy:</Text>
+              <Text
+              style={{ color: '#e65c00', fontFamily: 'cursive'
+            }}
+               text50>Vendor Allow Policy:
+                 
+               </Text>
               <TableView
                 values={Item.allowedVendors}
                 label={['Vendor', 'Allowed']}
@@ -260,7 +265,8 @@ const index = ({ navigation, route }) => {
               <Text text50
               style={{ color: '#e65c00', fontFamily: 'cursive'
             }}>
-              Amenities :</Text>
+              Amenities :
+              </Text>
               <TableViewAmenity
                 values={Item.amenities}
                 label={['Amenity', 'Minimum Capacity', 'Maximum Capacity']}
@@ -271,7 +277,12 @@ const index = ({ navigation, route }) => {
 
           {Item.features.length && Item.features[0].name !== '' ? (
             <View>
-              <Text text50>Features :</Text>
+              <Text 
+              text50
+              style={{ color: '#e65c00', fontFamily: 'cursive'
+                  }}
+              
+              >Features :</Text>
               <TableView
                 checkble
                 values={Item.features}
@@ -283,7 +294,10 @@ const index = ({ navigation, route }) => {
 
           {Item.plans.length && Item.plans[0].name !== '' ? (
             <View>
-              <Text text50> Plans / Packages :</Text>
+              <Text 
+              style={{ color: '#e65c00', fontFamily: 'cursive'
+            }}
+              text50> Plans / Packages :</Text>
               <TableView
                 values={Item.plans}
                 label={['Plan Name', 'Price']}
@@ -292,12 +306,18 @@ const index = ({ navigation, route }) => {
             </View>
           ) : null}
 
-          <Text text50BL>Description:</Text>
+          <Text 
+          style={{ color: '#e65c00', fontFamily: 'cursive'
+        }}
+          text50BL>Description:</Text>
 
           <Text style={{ textAlign: 'justify' }} text70 marginB-20>
             {Item.description}
           </Text>
-          <Text text50BL>Terms and Conditions:</Text>
+          <Text 
+            style={{ color: '#e65c00', fontFamily: 'cursive'
+          }}
+          text50BL>Terms and Conditions:</Text>
 
           <Text style={{ textAlign: 'justify' }} text70 marginB-20>
             {Item.termsandconditions}
