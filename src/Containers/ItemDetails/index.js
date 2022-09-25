@@ -39,7 +39,7 @@ const index = ({ navigation, route }) => {
   const dispatch = useDispatch()
   const userdata = useSelector(state => state.auth.value.userData)
   const Item = useSelector(state => state.item.value)
-  console.log(Item,"iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiit")
+  console.log(Item.albums,"iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiit")
   console.log(Item, "item brochure............................manish")
   // const [Items, SetItems] = useState([])
   // const [Item.images, SetItem.images] = useState([])
@@ -57,6 +57,11 @@ const index = ({ navigation, route }) => {
     
       }
 
+
+      const viewer = () => {
+    alert("hell")
+    
+      }
   //const [Loading, SetLoading] = useState(true)
 
   // const descriptionParser = text => {
@@ -260,6 +265,7 @@ const index = ({ navigation, route }) => {
             </View>
           ) : null}
 
+
           {Item.amenities.length && Item.amenities[0].name !== '' ? (
             <View>
               <Text text50
@@ -421,9 +427,11 @@ const index = ({ navigation, route }) => {
                 renderItem={({ item,index }) => (
                   <>
                   <View key={item}>
+                  <TouchableOpacity onPress={() => viewer()}>
+
                     <Image
                     onPress={() => {
-                      refRBSheet.current.open()
+                      console.log("22222222222222222222222222222222222222222222222222222222222222222222222")
                     }}
                       source={{
                         uri: 'http://192.168.2.122:8080/' + item.images[0],
@@ -434,12 +442,14 @@ const index = ({ navigation, route }) => {
                         borderRadius: 10,
                       }}
                     />
+                    </TouchableOpacity>
+
                     <Text center text60>
                       {item.name}
                     </Text>
                   </View>
-                  <RBSheet
-                  ref={refRBSheet}
+                  {/* <RBSheet
+                  // ref={refRBSheet}
                   closeOnDragDown={true}
                   closeOnPressMask={false}
                   height={350}
@@ -454,7 +464,7 @@ const index = ({ navigation, route }) => {
                   }}
                 >
 
-                </RBSheet>
+                </RBSheet> */}
                 </>
                 )}
               />
@@ -475,11 +485,9 @@ const index = ({ navigation, route }) => {
                 renderItem={({ item,index }) => {
                   var regExp = /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
                   var match = item.match(regExp);
-                  console.log(match,"matchhhhhhhhhhhhhhhhh")
                   let videoLink 
                   if (match && match[2].length == 11) {
                    videoLink=match[2];
-                   console.log(typeof(videoLink),"videolinkkkkkkkkkkkkkkkkkkkkkkkkkk")
 
                 } else {
                  //error
@@ -493,26 +501,7 @@ const index = ({ navigation, route }) => {
                     allowsFullscreenVideo={true}
                     scalesPageToFit={true}
             />
-            {/* <WebView
-    style={{ alignSelf: 'stretch' }}
-    scalesPageToFit={true}
-        source={{uri:`https://www.youtube.com/watch?v=${videoLink}`}}
-    /> */}
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    {/* <TouchableOpacity onPress={()=> Linking.openURL(`https://www.youtube.com/watch?v=${videoLink}`)}>
-                    <Text>{`Video Title ${index+1}`}, Click Me</Text>
-                    </TouchableOpacity> */}
+
                   </View>
                 )}}
               />

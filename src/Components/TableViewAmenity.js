@@ -3,7 +3,6 @@ import CheckBox from '@react-native-community/checkbox'
 import React, { useState, useEffect, useMemo } from 'react'
 
 const TableViewAmenity = ({ label, values, checkble }) => {
-    console.log(values, "manish..............values amenity val")
   return (
     <View paddingV-10>
       <View
@@ -22,6 +21,7 @@ const TableViewAmenity = ({ label, values, checkble }) => {
         </Text>
       </View>
       {values.map((item, index) => {
+        console.log(item,"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$d")
         return (
           <View
             key={index}
@@ -35,8 +35,17 @@ const TableViewAmenity = ({ label, values, checkble }) => {
           >
             <View style={{ flex: 6 }}>
               <Text text65>{item.name}</Text>
+              
             </View>
-            <View paddingT-10 style={{ flex: 4 }}>
+            <View style={{ flex: 3 }}>
+              <Text text65>{item.min}</Text>
+              
+            </View>
+            <View style={{ flex: 3 }}>
+              <Text text65>{item.max}</Text>
+              
+            </View>
+            {/* <View paddingT-10 style={{ flex: 4 }}>
               {checkble ? (
                 <CheckBox
                   tintColors={{ true: '#ff4d4d', false: '#ff4d4d' }}
@@ -50,7 +59,7 @@ const TableViewAmenity = ({ label, values, checkble }) => {
                     <Text text65>{item.max}</Text>
                 </>
               )}
-            </View>
+            </View> */}
           </View>
         )
       })}

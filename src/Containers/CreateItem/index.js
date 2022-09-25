@@ -316,6 +316,7 @@ const ProductScreen = () => {
   const [subCategoryList, setSubcategoriesList] = useState([])
   const [plans, setplans] = useState([{ name: '', value: '' }])
   const [amenities, setamenities] = useState([{ name: '', min: '', max: '' }])
+
   const [albums, setAlbums] = useState([{ name: '', value: '' }])
   const [vidLinks, setvidLinks] = useState([''])
   const [features, setfeatures] = useState([{ name: '', value: false }])

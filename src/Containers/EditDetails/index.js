@@ -1129,7 +1129,7 @@ const ProductScreen = () => {
                 </ScrollView>
               </View>
               <Text text60 paddingV-5>
-                Albums :
+                ssss :
               </Text>
               <Text text70 paddingV-5>
                 These albums will be visble with name on the listing page please
