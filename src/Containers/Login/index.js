@@ -66,7 +66,7 @@ const index = ({ navigation }) => {
 
     setLoading(true)
     axios
-      .post('http://192.168.2.122:8080/users/login', {
+      .post('http://192.168.68.115:8080/users/login', {
         mobile: Phone,
         password,
       })

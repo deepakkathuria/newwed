@@ -371,7 +371,7 @@ const ProductScreen = () => {
     }
     await axios
       .post(
-        'http://192.168.2.122:8080/users/getuserbyid',
+        'http://192.168.68.115:8080/users/getuserbyid',
         {
           _id: user._id,
         },
@@ -537,7 +537,7 @@ const ProductScreen = () => {
     SetLoading(true)
     setCurrentStatus('Update Item on Server')
     const data = await axios.patch(
-      'http://192.168.2.122:8080/item/update',
+      'http://192.168.68.115:8080/item/update',
       {
         name: name,
         contactPhone: phone,
@@ -584,7 +584,7 @@ const ProductScreen = () => {
     setCurrentStatus('Item Created, Uploading Main Image')
     try {
       axios
-        .post('http://192.168.2.122:8080/item/mainimage', mainform, config)
+        .post('http://192.168.68.115:8080/item/mainimage', mainform, config)
         .then(res => {
           console.log(res.data)
         })
@@ -605,7 +605,7 @@ const ProductScreen = () => {
       Gallary.append('_id', Itemdata._id)
       setCurrentStatus('Uploading Gallery Images')
       await axios
-        .post('http://192.168.2.122:8080/item/imageupload', Gallary, config)
+        .post('http://192.168.68.115:8080/item/imageupload', Gallary, config)
         .then(result => {
           console.log(reslut)
         })
@@ -633,7 +633,7 @@ const ProductScreen = () => {
         brocherdata.append('_id', Itemdata._id)
         await axios
           .post(
-            'http://192.168.2.122:8080/item/uploadbrochure',
+            'http://192.168.68.115:8080/item/uploadbrochure',
             brocherdata,
             config,
           )
@@ -670,7 +670,7 @@ const ProductScreen = () => {
       })
     })
     await axios
-      .post('http://192.168.2.122:8080/item/uploadalbum', data, config)
+      .post('http://192.168.68.115:8080/item/uploadalbum', data, config)
       .then(result => {
         console.log(result)
       })
@@ -1129,7 +1129,7 @@ const ProductScreen = () => {
                 </ScrollView>
               </View>
               <Text text60 paddingV-5>
-                ssss :
+                Albums :
               </Text>
               <Text text70 paddingV-5>
                 These albums will be visble with name on the listing page please

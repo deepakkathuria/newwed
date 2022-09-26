@@ -31,6 +31,7 @@ import { useIsFocused } from '@react-navigation/native'
 import Icon from 'react-native-vector-icons/Fontisto'
 import ShareIcon from '@/Assets/Images/share.png'
 import TableViewAmenity from '../../Components/TableViewAmenity'
+import indexTest from './indexTest';
 
 const index = ({ navigation, route }) => {
   const isFocused = useIsFocused()
@@ -48,6 +49,8 @@ const index = ({ navigation, route }) => {
   const [Loading, SetLoading] = useState(false)
   // const [Item, SetItem] = useState({})
   const [CurrentPage, setCurrentPage] = useState(0)
+  const [Comp, setComp] = useState(false)
+
 
   const [playing, setPlaying] = useState(false);
 
@@ -58,11 +61,27 @@ const index = ({ navigation, route }) => {
       }
 
 
-      const viewer = () => {
-    alert("hell")
+   
+
+
+    function viewer(){
+      alert("hello world")
+      setComp(true)
+      
+      // </indexTest>
+    }
+  
+  
+    //  const viewer = () => {
+    //   alert("hell")
+    //   return(
+    //   </indexTest>
+    //   )
+
     
-      }
-  //const [Loading, SetLoading] = useState(true)
+    //   }
+
+    //const [Loading, SetLoading] = useState(true)
 
   // const descriptionParser = text => {
   //   let newtext = text.replace('<p>', '')
@@ -103,6 +122,9 @@ const index = ({ navigation, route }) => {
   console.log(Item.mainImage,"*******************")
 
   return (
+
+
+    
     <ScrollView
       style={{
         marginBottom: 60,
@@ -110,6 +132,11 @@ const index = ({ navigation, route }) => {
       }}
       horizontal={false}
     >
+
+{Comp ?
+           alert("nops") :
+           null
+        }
       {Loading ? (
         <View center style={{ width: '100%', paddingTop: 100 }}>
           <LoaderScreen center color="#ff4d4d" />
@@ -157,7 +184,7 @@ const index = ({ navigation, route }) => {
                 borderRadius: 15, }}
                 resizeMode="cover"
                 source={{
-                  uri: 'http://192.168.2.122:8080/' + Item.mainImage,
+                  uri: 'http://192.168.68.115:8080/' + Item.mainImage,
                 }}
                 // loader={<LoaderScreen color="#FFF" />}
                 // animationDuration={100}
@@ -167,7 +194,7 @@ const index = ({ navigation, route }) => {
                 <View key={img}>
                   <Image
                     source={{
-                      uri: 'http://192.168.2.122:8080/' + img,
+                      uri: 'http://192.168.68.115:8080/' + img,
                     }}
                     style={{
                       resizeMode: 'cover',
@@ -399,7 +426,7 @@ const index = ({ navigation, route }) => {
                   <View key={item}>
                     <Image
                       source={{
-                        uri: 'http://192.168.2.122:8080/' + item,
+                        uri: 'http://192.168.68.115:8080/' + item,
                       }}
                       style={{
                         resizeMode: 'cover',
@@ -434,7 +461,7 @@ const index = ({ navigation, route }) => {
                       console.log("22222222222222222222222222222222222222222222222222222222222222222222222")
                     }}
                       source={{
-                        uri: 'http://192.168.2.122:8080/' + item.images[0],
+                        uri: 'http://192.168.68.115:8080/' + item.images[0],
                       }}
                       style={{
                         resizeMode: 'cover',
@@ -523,7 +550,7 @@ const index = ({ navigation, route }) => {
                 Item.brochure
                   ? () =>
                       Linking.openURL(
-                        'http://192.168.2.122:8080/' + Item.brochure,
+                        'http://192.168.68.115:8080/' + Item.brochure,
                       )
                   : console.log('No Brochure')
               }
@@ -534,6 +561,7 @@ const index = ({ navigation, route }) => {
         </>
       )}
     </ScrollView>
+    
   )
 }
 

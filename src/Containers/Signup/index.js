@@ -46,7 +46,7 @@ const index = () => {
     // const confirmation = await auth().signInWithPhoneNumber('+91' + mobile)
     // setConfirm(confirmation)
     axios
-      .post('http://192.168.2.122:8080/users/sendotp', {
+      .post('http://192.168.68.115:8080/users/sendotp', {
         mobile,
       })
       .then(res => {
@@ -75,7 +75,7 @@ const index = () => {
       setLoading(true)
 
       axios
-        .post('http://192.168.2.122:8080/users/create/account', {
+        .post('http://192.168.68.115:8080/users/create/account', {
           mobile,
           name,
           password,

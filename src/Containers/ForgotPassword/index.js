@@ -45,7 +45,7 @@ const index = () => {
     // const confirmation = await auth().signInWithPhoneNumber('+91' + mobile)
     // setConfirm(confirmation)
     axios
-      .post('http://192.168.2.122:8080/users/sendotp', {
+      .post('http://192.168.68.115:8080/users/sendotp', {
         mobile,
       })
       .then(res => {
@@ -76,7 +76,7 @@ const index = () => {
         console.log(mobile + ' ' + password)
 
         await axios
-          .patch('http://192.168.2.122:8080/users/reset/password', {
+          .patch('http://192.168.68.115:8080/users/reset/password', {
             mobile,
             password,
           })

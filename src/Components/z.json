@@ -1,0 +1,868 @@
+[Object
+],
+[Object
+],
+[Object
+]
+],
+"amenities": [
+[Object
+]
+],
+"brochure": [],
+"category": "Farm House",
+"city": "Mumbai",
+"contactEmail": "",
+"contactPhone": "",
+"country": "",
+"createdAt": "2022-09-17T06:10:44.989Z",
+"description": "",
+"features": [
+[Object
+]
+],
+"id": "632564e4c8f95d723c168a9a",
+"images": [],
+"is_delete": false,
+"localisation": [],
+"mainImage": "images/item/1663395045959.jpg",
+"name": "ManishFarm",
+"nonVegPerPlate": "",
+"plans": [
+[Object
+]
+],
+"price": "",
+"state": "",
+"subCategory": "",
+"terms": [],
+"termsandconditions": "",
+"type": "Venue",
+"updatedAt": "2022-09-17T06:10:46.376Z",
+"vegPerPlate": "",
+"vendorId": "6319d71f58376b74c0ba9321",
+"vidLinks": [],
+"zipcode": ""
+},
+{
+"__v": 0,
+"_id": "632565b8c8f95d723c168a9b",
+"address": "",
+"albums": [],
+"allowedVendors": [
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+]
+],
+"amenities": [
+[Object
+],
+[Object
+]
+],
+"brochure": [],
+"category": "Hotel",
+"city": "Mumbai",
+"contactEmail": "",
+"contactPhone": "",
+"country": "",
+"createdAt": "2022-09-17T06:14:16.836Z",
+"description": "",
+"features": [
+[Object
+]
+],
+"id": "632565b8c8f95d723c168a9b",
+"images": [],
+"is_delete": false,
+"localisation": [],
+"mainImage": "images/item/1663395257884.jpg",
+"name": "HotelManish",
+"nonVegPerPlate": "",
+"plans": [
+[Object
+]
+],
+"price": "",
+"state": "",
+"subCategory": "",
+"terms": [],
+"termsandconditions": "",
+"type": "Venue",
+"updatedAt": "2022-09-17T06:14:18.351Z",
+"vegPerPlate": "",
+"vendorId": "6319d71f58376b74c0ba9321",
+"vidLinks": [],
+"zipcode": ""
+},
+{
+"__v": 0,
+"_id": "63256782c8f95d723c168a9c",
+"address": "",
+"albums": [],
+"allowedVendors": [
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+]
+],
+"amenities": [
+[Object
+],
+[Object
+]
+],
+"brochure": [],
+"category": "Resort",
+"city": "Pune",
+"contactEmail": "",
+"contactPhone": "",
+"country": "",
+"createdAt": "2022-09-17T06:21:54.285Z",
+"description": "",
+"features": [
+[Object
+]
+],
+"id": "63256782c8f95d723c168a9c",
+"images": [],
+"is_delete": false,
+"localisation": [],
+"mainImage": "images/item/1663395715205.jpg",
+"name": "Change Value",
+"nonVegPerPlate": "",
+"plans": [
+[Object
+]
+],
+"price": "",
+"state": "",
+"subCategory": "",
+"terms": [],
+"termsandconditions": "",
+"type": "Venue",
+"updatedAt": "2022-09-17T06:21:55.649Z",
+"vegPerPlate": "",
+"vendorId": "6319d71f58376b74c0ba9321",
+"vidLinks": [],
+"zipcode": ""
+},
+{
+"__v": 0,
+"_id": "632571a3c8f95d723c168a9d",
+"address": "",
+"albums": [],
+"allowedVendors": [
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+]
+],
+"amenities": [
+[Object
+],
+[Object
+]
+],
+"brochure": [],
+"category": "Destination Wedding",
+"city": "Goa",
+"contactEmail": "",
+"contactPhone": "",
+"country": "",
+"createdAt": "2022-09-17T07:05:07.545Z",
+"description": "",
+"features": [
+[Object
+]
+],
+"id": "632571a3c8f95d723c168a9d",
+"images": [],
+"is_delete": false,
+"localisation": [],
+"mainImage": "images/item/1663398309708.jpg",
+"name": "des",
+"nonVegPerPlate": "",
+"plans": [
+[Object
+]
+],
+"price": "",
+"state": "",
+"subCategory": "",
+"terms": [],
+"termsandconditions": "",
+"type": "Venue",
+"updatedAt": "2022-09-17T07:05:10.715Z",
+"vegPerPlate": "",
+"vendorId": "6319d71f58376b74c0ba9321",
+"vidLinks": [],
+"zipcode": ""
+},
+{
+"__v": 0,
+"_id": "63257a97c8f95d723c168a9e",
+"address": "",
+"albums": [],
+"allowedVendors": [
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+]
+],
+"amenities": [
+[Object
+]
+],
+"brochure": [
+"images/item/1663400604135.pdf"
+],
+"category": "Hotel",
+"city": "Mumbai",
+"contactEmail": "",
+"contactPhone": "",
+"country": "",
+"createdAt": "2022-09-17T07:43:19.822Z",
+"description": "",
+"features": [
+[Object
+]
+],
+"id": "63257a97c8f95d723c168a9e",
+"images": [],
+"is_delete": false,
+"localisation": [],
+"mainImage": "images/item/1663400601557.jpg",
+"name": "brochure",
+"nonVegPerPlate": "",
+"plans": [
+[Object
+]
+],
+"price": "",
+"state": "",
+"subCategory": "",
+"terms": [],
+"termsandconditions": "",
+"type": "Venue",
+"updatedAt": "2022-09-17T07:43:24.141Z",
+"vegPerPlate": "",
+"vendorId": "6319d71f58376b74c0ba9321",
+"vidLinks": [],
+"zipcode": ""
+},
+{
+"__v": 0,
+"_id": "63259413c8f95d723c168a9f",
+"address": "",
+"albums": [],
+"allowedVendors": [
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+]
+],
+"amenities": [
+[Object
+]
+],
+"brochure": [
+"images/item/1663407128411.pdf"
+],
+"category": "Hotel",
+"city": "Mumbai",
+"contactEmail": "",
+"contactPhone": "",
+"country": "",
+"createdAt": "2022-09-17T09:32:03.727Z",
+"description": "",
+"features": [
+[Object
+]
+],
+"id": "63259413c8f95d723c168a9f",
+"images": [
+"images/item/1663407126336.jpg",
+"images/item/1663407126371.jpg"
+],
+"is_delete": false,
+"localisation": [],
+"mainImage": "images/item/1663407125375.jpg",
+"name": "image",
+"nonVegPerPlate": "",
+"plans": [
+[Object
+]
+],
+"price": "",
+"state": "",
+"subCategory": "",
+"terms": [],
+"termsandconditions": "",
+"type": "Venue",
+"updatedAt": "2022-09-17T09:32:08.416Z",
+"vegPerPlate": "",
+"vendorId": "6319d71f58376b74c0ba9321",
+"vidLinks": [],
+"zipcode": ""
+},
+{
+"__v": 0,
+"_id": "6325950ec8f95d723c168aa0",
+"address": "",
+"albums": [
+[Object
+],
+[Object
+]
+],
+"allowedVendors": [
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+]
+],
+"amenities": [
+[Object
+],
+[Object
+]
+],
+"brochure": [
+"images/item/1663407380161.pdf"
+],
+"category": "Resort",
+"city": "Jaipur",
+"contactEmail": "",
+"contactPhone": "",
+"country": "",
+"createdAt": "2022-09-17T09:36:14.706Z",
+"description": "",
+"features": [
+[Object
+]
+],
+"id": "6325950ec8f95d723c168aa0",
+"images": [
+"images/item/1663407377619.jpg",
+"images/item/1663407377638.jpg"
+],
+"is_delete": false,
+"localisation": [],
+"mainImage": "images/item/1663407376657.jpg",
+"name": "album",
+"nonVegPerPlate": "",
+"plans": [
+[Object
+]
+],
+"price": "",
+"state": "",
+"subCategory": "",
+"terms": [],
+"termsandconditions": "",
+"type": "Venue",
+"updatedAt": "2022-09-17T09:36:20.170Z",
+"vegPerPlate": "",
+"vendorId": "6319d71f58376b74c0ba9321",
+"vidLinks": [],
+"zipcode": ""
+},
+{
+"__v": 0,
+"_id": "632595f3792b8316729353a5",
+"address": "",
+"albums": [],
+"allowedVendors": [
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+]
+],
+"amenities": [
+[Object
+]
+],
+"brochure": [],
+"category": "Banquet Hall",
+"city": "Mumbai",
+"contactEmail": "",
+"contactPhone": "",
+"country": "",
+"createdAt": "2022-09-17T09:40:03.936Z",
+"description": "",
+"features": [
+[Object
+]
+],
+"id": "632595f3792b8316729353a5",
+"images": [],
+"is_delete": false,
+"localisation": [],
+"mainImage": "images/item/1663407604601.jpg",
+"name": "Albums test",
+"nonVegPerPlate": "",
+"plans": [
+[Object
+]
+],
+"price": "",
+"state": "",
+"subCategory": "",
+"terms": [],
+"termsandconditions": "",
+"type": "Venue",
+"updatedAt": "2022-09-17T09:40:04.718Z",
+"vegPerPlate": "",
+"vendorId": "6319d71f58376b74c0ba9321",
+"vidLinks": [
+""
+],
+"zipcode": ""
+},
+{
+"__v": 0,
+"_id": "6325b681792b8316729353a7",
+"address": "",
+"albums": [
+[Object
+]
+],
+"allowedVendors": [
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+]
+],
+"amenities": [
+[Object
+]
+],
+"brochure": [],
+"category": "Resort",
+"city": "Pune",
+"contactEmail": "",
+"contactPhone": "",
+"country": "",
+"createdAt": "2022-09-17T11:58:57.145Z",
+"description": "",
+"features": [
+[Object
+]
+],
+"id": "6325b681792b8316729353a7",
+"images": [],
+"is_delete": false,
+"localisation": [],
+"mainImage": "images/item/1663415939208.jpg",
+"name": "Album3",
+"nonVegPerPlate": "",
+"plans": [
+[Object
+]
+],
+"price": "",
+"state": "",
+"subCategory": "",
+"terms": [],
+"termsandconditions": "",
+"type": "Venue",
+"updatedAt": "2022-09-17T11:59:00.977Z",
+"vegPerPlate": "",
+"vendorId": "6319d71f58376b74c0ba9321",
+"vidLinks": [
+""
+],
+"zipcode": ""
+},
+{
+"__v": 0,
+"_id": "6325b70cc8f95d723c168aa1",
+"address": "",
+"albums": [
+[Object
+],
+[Object
+]
+],
+"allowedVendors": [
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+]
+],
+"amenities": [
+[Object
+]
+],
+"brochure": [],
+"category": "Farm House",
+"city": "Goa",
+"contactEmail": "",
+"contactPhone": "",
+"country": "",
+"createdAt": "2022-09-17T12:01:16.513Z",
+"description": "",
+"features": [
+[Object
+]
+],
+"id": "6325b70cc8f95d723c168aa1",
+"images": [],
+"is_delete": false,
+"localisation": [],
+"mainImage": "images/item/1663416078387.jpg",
+"name": "albumtest2",
+"nonVegPerPlate": "",
+"plans": [
+[Object
+]
+],
+"price": "",
+"state": "",
+"subCategory": "",
+"terms": [],
+"termsandconditions": "",
+"type": "Venue",
+"updatedAt": "2022-09-17T12:01:20.570Z",
+"vegPerPlate": "",
+"vendorId": "6319d71f58376b74c0ba9321",
+"vidLinks": [],
+"zipcode": ""
+},
+{
+"__v": 0,
+"_id": "6325b77d792b8316729353a8",
+"address": "",
+"albums": [
+[Object
+]
+],
+"allowedVendors": [
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+]
+],
+"amenities": [
+[Object
+]
+],
+"brochure": [],
+"category": "Lawn",
+"city": "Udaipur",
+"contactEmail": "",
+"contactPhone": "",
+"country": "",
+"createdAt": "2022-09-17T12:03:09.676Z",
+"description": "",
+"features": [
+[Object
+]
+],
+"id": "6325b77d792b8316729353a8",
+"images": [],
+"is_delete": false,
+"localisation": [],
+"mainImage": "images/item/1663416190312.jpg",
+"name": "Albumtester",
+"nonVegPerPlate": "",
+"plans": [
+[Object
+]
+],
+"price": "",
+"state": "",
+"subCategory": "",
+"terms": [],
+"termsandconditions": "",
+"type": "Venue",
+"updatedAt": "2022-09-17T12:03:10.797Z",
+"vegPerPlate": "",
+"vendorId": "6319d71f58376b74c0ba9321",
+"vidLinks": [
+""
+],
+"zipcode": ""
+},
+{
+"__v": 0,
+"_id": "6325bb36792b8316729353a9",
+"address": "",
+"albums": [
+[Object
+]
+],
+"allowedVendors": [
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+]
+],
+"amenities": [
+[Object
+]
+],
+"brochure": [],
+"category": "Banquet Hall",
+"city": "Pune",
+"contactEmail": "",
+"contactPhone": "",
+"country": "",
+"createdAt": "2022-09-17T12:19:02.420Z",
+"description": "",
+"features": [
+[Object
+]
+],
+"id": "6325bb36792b8316729353a9",
+"images": [],
+"is_delete": false,
+"localisation": [],
+"mainImage": "images/item/1663417143010.jpg",
+"name": "Dg Jhd",
+"nonVegPerPlate": "",
+"plans": [
+[Object
+]
+],
+"price": "",
+"state": "",
+"subCategory": "",
+"terms": [],
+"termsandconditions": "",
+"type": "Venue",
+"updatedAt": "2022-09-17T12:19:05.571Z",
+"vegPerPlate": "",
+"vendorId": "6319d71f58376b74c0ba9321",
+"vidLinks": [
+""
+],
+"zipcode": ""
+},
+{
+"__v": 0,
+"_id": "632d7c5153877641186f3541",
+"address": "Rohini",
+"albums": [
+[Object
+],
+[Object
+]
+],
+"allowedVendors": [
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+],
+[Object
+]
+],
+"amenities": [
+[Object
+]
+],
+"brochure": [],
+"category": "Lawn",
+"city": "Udaipur",
+"contactEmail": "Deepakkathuria32@gmail.com",
+"contactPhone": "8447145941",
+"country": "",
+"createdAt": "2022-09-23T09:28:50.020Z",
+"description": "Dk..",
+"features": [
+[Object
+]
+],
+"id": "632d7c5153877641186f3541",
+"images": [
+"images/item/1663925333096.mp4"
+],
+"is_delete": false,
+"localisation": [],
+"mainImage": "images/item/1663925332010.jpg",
+"name": "Dk",
+"nonVegPerPlate": "22",
+"plans": [
+[Object
+]
+],
+"price": "222",
+"state": "",
+"subCategory": "",
+"terms": [],
+"termsandconditions": "",
+"type": "Venue",
+"updatedAt": "2022-09-23T09:28:57.775Z",
+"vegPerPlate": "22",
+"vendorId": "6319d71f58376b74c0ba9321",
+"vidLinks": [],
+"zipcode": "110085"
+}
+]
+ LOG  {
+"__v": 0,
+"_id": "63254f11792b8316729353a2",
+"address": "Any",
+"albums": [],
+"allowedVendors": [
+{
+"name": "Decor",
+"value": true
+},
+{
+"name": "DJ",
+"value": false
+},
+{
+"name": "Cake",
+"value": true
+},
+{
+"name": "Liquor",
+"value": false
+},
+{
+"name": "Pan Counter",
+"value": true
+},
+{
+"name": "Test",
+"value": true
+}
+],
+"amenities": [
+{
+"name": "Hall1",
+"value": "200"
+},
+{
+"name": "Hall2",
+"value": "300"
+}
+],
+"brochure": [],
+"category": "Hotel",
+"city": "Mumbai",
+"contactEmail": "Any@email.com",
+"contactPhone": "2548061325",
+"country": "",
+"createdAt": "2022-09-17T04:37:37.862Z",
+"description": "Testing by manish",
+"features": [
+{
+"name": "TestFeature",
+"value": true
+},
+{
+"name": "TestFeature2",
+"value": true
+},
+{
+"name": "Test3F",
+"value": ""
+}
+],
+"id": "63254f11792b8316729353a2",
+"images": [],
+"is_delete": false,
+"localisation": [],
+"mainImage": "images/item/1663389458853.jpg",
+"name": "ManishTest",
+"nonVegPerPlate": "500",
+"plans": [
+{
+"name": "Test1",
+"value": "2000"
+},
+{
+"name": "Test2",
+"value": "3000"
+}
+],
+"price": "2000",
+"state": "",
+"subCategory": "",
+"terms": [],
+"termsandconditions": "Any conditions",
+"type": "Venue",
+"updatedAt": "2022-09-17T04:37:39.143Z",
+"vegPerPlate": "300",
+"vendorId": "6319d71f58376b74c0ba9321",
+"vidLinks": [
+"https://youtu.be/xcJtL7QggTI",
+"https://youtu.be/WjoplqS1u18"
+],
+"zipcode": "215346"
+}
