@@ -31,7 +31,7 @@ import { useIsFocused } from '@react-navigation/native'
 import Icon from 'react-native-vector-icons/Fontisto'
 import ShareIcon from '@/Assets/Images/share.png'
 import TableViewAmenity from '../../Components/TableViewAmenity'
-import indexTest from './indexTest';
+import IndexTest from './IndexTest';
 
 const index = ({ navigation, route }) => {
   const isFocused = useIsFocused()
