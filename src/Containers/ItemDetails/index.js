@@ -6,6 +6,7 @@ import {
   Pressable,
   TouchableOpacity,
   Linking,
+  Modal
 } from 'react-native'
 import RBSheet from 'react-native-raw-bottom-sheet'
 import YoutubePlayer from "react-native-youtube-iframe";
@@ -40,13 +41,15 @@ const index = ({ navigation, route }) => {
   const dispatch = useDispatch()
   const userdata = useSelector(state => state.auth.value.userData)
   const Item = useSelector(state => state.item.value)
-  console.log(Item.albums,"iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiit")
-  console.log(Item, "item brochure............................manish")
+  // console.log(Item.albums,"iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiit")
+  // console.log(Item, "item brochure............................manish")
   // const [Items, SetItems] = useState([])
   // const [Item.images, SetItem.images] = useState([])
   const [error, setError] = useState(false)
 
   const [Loading, SetLoading] = useState(false)
+  const [modal, SetModal] = useState(false)
+
   // const [Item, SetItem] = useState({})
   const [CurrentPage, setCurrentPage] = useState(0)
   const [Comp, setComp] = useState(false)
@@ -65,8 +68,9 @@ const index = ({ navigation, route }) => {
 
 
     function viewer(){
-      alert("hello world")
-      setComp(true)
+      // alert("hello world")
+      SetModal(true)
+      console.log("hello")
       
       // </indexTest>
     }
@@ -184,7 +188,7 @@ const index = ({ navigation, route }) => {
                 borderRadius: 15, }}
                 resizeMode="cover"
                 source={{
-                  uri: 'http://192.168.68.115:8080/' + Item.mainImage,
+                  uri: 'http://192.168.2.122:8080/' + Item.mainImage,
                 }}
                 // loader={<LoaderScreen color="#FFF" />}
                 // animationDuration={100}
@@ -194,7 +198,7 @@ const index = ({ navigation, route }) => {
                 <View key={img}>
                   <Image
                     source={{
-                      uri: 'http://192.168.68.115:8080/' + img,
+                      uri: 'http://192.168.2.122:8080/' + img,
                     }}
                     style={{
                       resizeMode: 'cover',
@@ -426,7 +430,7 @@ const index = ({ navigation, route }) => {
                   <View key={item}>
                     <Image
                       source={{
-                        uri: 'http://192.168.68.115:8080/' + item,
+                        uri: 'http://192.168.2.122:8080/' + item,
                       }}
                       style={{
                         resizeMode: 'cover',
@@ -461,7 +465,7 @@ const index = ({ navigation, route }) => {
                       console.log("22222222222222222222222222222222222222222222222222222222222222222222222")
                     }}
                       source={{
-                        uri: 'http://192.168.68.115:8080/' + item.images[0],
+                        uri: 'http://192.168.2.122:8080/' + item.images[0],
                       }}
                       style={{
                         resizeMode: 'cover',
@@ -550,7 +554,7 @@ const index = ({ navigation, route }) => {
                 Item.brochure
                   ? () =>
                       Linking.openURL(
-                        'http://192.168.68.115:8080/' + Item.brochure,
+                        'http://192.168.2.122:8080/' + Item.brochure,
                       )
                   : console.log('No Brochure')
               }
@@ -558,7 +562,9 @@ const index = ({ navigation, route }) => {
               <Text white>Download Brochure</Text>
             </TouchableOpacity>
           </View>
+          
         </>
+        
       )}
     </ScrollView>
     

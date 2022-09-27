@@ -91,7 +91,7 @@ const Profile = ({ navigation }) => {
     }
     await axios
       .post(
-        'http://192.168.68.115:8080/users/getuserbyid',
+        'http://192.168.2.122:8080/users/getuserbyid',
         {
           _id: user._id,
         },
@@ -188,7 +188,7 @@ const Profile = ({ navigation }) => {
       console.log()
       setLoading(true)
       const res = await axios
-        .patch(`http://192.168.68.115:8080/users/updatewithpass`, {
+        .patch(`http://192.168.2.122:8080/users/updatewithpass`, {
           _id: user._id,
           name: name,
           address: Address,
@@ -221,7 +221,7 @@ const Profile = ({ navigation }) => {
     if (Phone.length > 0) {
       setLoading(true)
       axios
-        .patch(`http://192.168.68.115:8080/users/resetuniquemobile`, {
+        .patch(`http://192.168.2.122:8080/users/resetuniquemobile`, {
           _id: user._id,
           mobile: Phone,
         })
@@ -240,7 +240,7 @@ const Profile = ({ navigation }) => {
     if (Email.length > 0) {
       setLoading(true)
       axios
-        .patch(`http://192.168.68.115:8080/users/resetuniqueemail`, {
+        .patch(`http://192.168.2.122:8080/users/resetuniqueemail`, {
           _id: user._id,
           email: Email,
         })
@@ -262,7 +262,7 @@ const Profile = ({ navigation }) => {
       if (Password === Password2) {
         setLoading(true)
         axios
-          .patch(`http://192.168.68.115:8080/users/reset/password`, {
+          .patch(`http://192.168.2.122:8080/users/reset/password`, {
             // shipping_address: Address,
             // address: Address,
             // mobile: Phone,
@@ -322,7 +322,7 @@ const Profile = ({ navigation }) => {
       console.log(mainform)
       setLoading(true)
       await axios
-        .post(`http://192.168.68.115:8080/users/uploadprofile`, {
+        .post(`http://192.168.2.122:8080/users/uploadprofile`, {
           mainform,
           config,
           // _id: user._id,

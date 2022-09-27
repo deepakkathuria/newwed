@@ -59,7 +59,7 @@ const SmallBrandCard = ({ item, hotel, DeleteItem}) => {
       <Image
         borderRadius={10}
         resizeMode="cover"
-        source={{ uri: 'http://192.168.68.115:8080/' + item.mainImage }}
+        source={{ uri: 'http://192.168.2.122:8080/' + item.mainImage }}
         style={{ height: 160, width: '40%' }}
       />
       

@@ -160,7 +160,7 @@ return (
                       console.log("22222222222222222222222222222222222222222222222222222222222222222222222")
                     }}
                       source={{
-                        uri: 'http://192.168.68.115:8080/' + item.images[0],
+                        uri: 'http://192.168.2.122:8080/' + item.images[0],
                       }}
                       style={{
                         resizeMode: 'cover',

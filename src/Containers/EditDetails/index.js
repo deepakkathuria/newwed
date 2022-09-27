@@ -22,12 +22,15 @@ import {
   Picker,
 } from 'react-native-ui-lib'
 
+
 import { useNavigation } from '@react-navigation/native'
 import { FlatGrid } from 'react-native-super-grid'
 import ImagePicker from 'react-native-image-crop-picker'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import axios from 'axios'
 // import { API_URL, API_TOKEN } from '@env'
+const API_URL = 'https://api.wedcell.com/front-profile-update'
+
 import { CardField, useConfirmSetupIntent } from '@stripe/stripe-react-native'
 import AwesomeAlert from 'react-native-awesome-alerts'
 import { useIsFocused } from '@react-navigation/native'
@@ -43,6 +46,7 @@ import AlbumTable from '@/Components/AlbumTable'
 
 import GallaryImage from '@/Assets/Images/main-Gallary.png'
 import LinkTable from '@/Components/LinkTable'
+
 
 const InputColors = {
   default: 'grey',
@@ -255,6 +259,9 @@ const CategotiesList = [
     ],
   },
 ]
+// const isAuthenticated = useSelector(state => state.auth.value.isAuthenticated)
+
+
 
 const requestCameraPermission = async () => {
   try {
@@ -284,6 +291,8 @@ const ProductScreen = () => {
     message: '',
   })
   const user = useSelector(state => state.auth.value.userData)
+
+  console.log(user,"useeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeseeeeeeeee")
   const [ShowImage, setShowImage] = useState({ visible: false, image: '' })
   const isFocused = useIsFocused()
   const navigation = useNavigation()
@@ -302,6 +311,7 @@ const ProductScreen = () => {
   // Item Variables
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('')
+
   const [name, setName] = useState('')
   const [description, setdescription] = useState('')
   const [type, settype] = useState('')
@@ -320,10 +330,12 @@ const ProductScreen = () => {
     { name: 'Liquor', value: false },
     { name: 'Pan Counter', value: false },
   ])
+  const Item = useSelector(state => state.item.value)
+
   const [terms, setterms] = useState([])
-  const [state, setstate] = useState('')
-  const [city, setcity] = useState('')
-  const [zipcode, setzipcode] = useState('')
+  const [state, setstate] = useState()
+  const [city, setcity] = useState()
+  const [zipcode, setzipcode] = useState(Item.zipcode)
   const [price, setprice] = useState('')
   const [vegPerPlate, setvegPerPlate] = useState('')
   const [nonVegPerPlate, setnonVegPerPlate] = useState('')
@@ -363,21 +375,24 @@ const ProductScreen = () => {
     })
     return unsubscribe
   }, [navigation])
+  const isAuthenticated = useSelector(state => state.auth.value.isAuthenticated)
 
   const FetchData = async () => {
+    
     console.log('FetchData')
     const config = {
       headers: { authorization: `${user.token}` },
     }
     await axios
       .post(
-        'http://192.168.68.115:8080/users/getuserbyid',
+        'http://192.168.2.122:8080/users/getuserbyid',
         {
           _id: user._id,
         },
         config,
       )
       .then(res => {
+        console.log(res,"00000000000000000000000000000000000000000000000000")
         if (res.data.success) {
           if (!isAuthenticated) {
             navigation.replace('Login')
@@ -389,8 +404,8 @@ const ProductScreen = () => {
             // setPhoto(user.profile_pic[0].path)
             // var showPhoto = photo
 
-            console.log(ProfilePicture)
-            setAddress(user.address)
+          
+            setaddress(user.address)
           }
           SetLoading(false)
         } else {
@@ -537,7 +552,7 @@ const ProductScreen = () => {
     SetLoading(true)
     setCurrentStatus('Update Item on Server')
     const data = await axios.patch(
-      'http://192.168.68.115:8080/item/update',
+      'http://192.168.2.122:8080/item/update',
       {
         name: name,
         contactPhone: phone,
@@ -584,7 +599,7 @@ const ProductScreen = () => {
     setCurrentStatus('Item Created, Uploading Main Image')
     try {
       axios
-        .post('http://192.168.68.115:8080/item/mainimage', mainform, config)
+        .post('http://192.168.2.122:8080/item/mainimage', mainform, config)
         .then(res => {
           console.log(res.data)
         })
@@ -605,7 +620,7 @@ const ProductScreen = () => {
       Gallary.append('_id', Itemdata._id)
       setCurrentStatus('Uploading Gallery Images')
       await axios
-        .post('http://192.168.68.115:8080/item/imageupload', Gallary, config)
+        .post('http://192.168.2.122:8080/item/imageupload', Gallary, config)
         .then(result => {
           console.log(reslut)
         })
@@ -633,7 +648,7 @@ const ProductScreen = () => {
         brocherdata.append('_id', Itemdata._id)
         await axios
           .post(
-            'http://192.168.68.115:8080/item/uploadbrochure',
+            'http://192.168.2.122:8080/item/uploadbrochure',
             brocherdata,
             config,
           )
@@ -670,7 +685,7 @@ const ProductScreen = () => {
       })
     })
     await axios
-      .post('http://192.168.68.115:8080/item/uploadalbum', data, config)
+      .post('http://192.168.2.122:8080/item/uploadalbum', data, config)
       .then(result => {
         console.log(result)
       })
@@ -679,7 +694,8 @@ const ProductScreen = () => {
       })
     return
   }
-
+  // const Item = useSelector(state => state.item.value)
+  console.log(Item.zipcode,"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
   const onDocumentPress = async () => {
     // Pick a single file
     try {
@@ -696,7 +712,6 @@ const ProductScreen = () => {
       }
     }
   }
-  console.log(Brochure, '%%%%%%%%%%%%%%%%%%%%%')
 
   return (
     <SafeAreaView>

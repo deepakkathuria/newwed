@@ -504,7 +504,7 @@ const ProductScreen = () => {
     SetLoading(true)
     setCurrentStatus('Creating Item on Server')
     const data = await axios.post(
-      'http://192.168.68.115:8080/item/create',
+      'http://192.168.2.122:8080/item/create',
       {
         name: name,
         contactPhone: phone,
@@ -551,7 +551,7 @@ const ProductScreen = () => {
     setCurrentStatus('Item Created, Uploading Main Image')
     try {
       axios
-        .post('http://192.168.68.115:8080/item/mainimage', mainform, config)
+        .post('http://192.168.2.122:8080/item/mainimage', mainform, config)
         .then(res => {
           console.log(res.data)
         })
@@ -572,7 +572,7 @@ const ProductScreen = () => {
       Gallary.append('_id', Itemdata._id)
       setCurrentStatus('Uploading Gallery Images')
       await axios.post(
-        'http://192.168.68.115:8080/item/imageupload',
+        'http://192.168.2.122:8080/item/imageupload',
         Gallary,
         config,
       )
@@ -596,7 +596,7 @@ const ProductScreen = () => {
         })
         brocherdata.append('_id', Itemdata._id)
         await axios.post(
-          'http://192.168.68.115:8080/item/uploadbrochure',
+          'http://192.168.2.122:8080/item/uploadbrochure',
           brocherdata,
           config,
         )
@@ -623,7 +623,7 @@ const ProductScreen = () => {
           Platform.OS === 'ios' ? item.uri.replace('file://', '') : item.path,
       })
     })
-    await axios.post('http://192.168.68.115:8080/item/uploadalbum', data, config)
+    await axios.post('http://192.168.2.122:8080/item/uploadalbum', data, config)
     return
   }
 
