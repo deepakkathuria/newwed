@@ -6,16 +6,22 @@ import {
   Pressable,
   TouchableOpacity,
   Linking,
+  Button, 
   Modal
+  
+  
 } from 'react-native'
 import RBSheet from 'react-native-raw-bottom-sheet'
 import YoutubePlayer from "react-native-youtube-iframe";
 import WebView from 'react-native-webview';
+// import Modal from "react-native-modal";
+// import { Dimensions } from 'react-native-extra-dimensions-android';
+
 
 import {
   View,
   Text,
-  Button,
+  
   Image,
   Card,
   Carousel,
@@ -63,7 +69,13 @@ const index = ({ navigation, route }) => {
     
       }
 
-
+  // const deviceWidth = Dimensions.get("window").width;
+  // const deviceHeight =
+  //       Platform.OS === "ios"
+  //         ? Dimensions.get("window").height
+  //         : require("react-native-extra-dimensions-android").get(
+  //             "REAL_WINDOW_HEIGHT"
+  //           );
    
 
 
@@ -74,6 +86,10 @@ const index = ({ navigation, route }) => {
       
       // </indexTest>
     }
+
+    const toggleModal = () => {
+      SetModal(!modal);
+    };
   
   
     //  const viewer = () => {
@@ -459,11 +475,49 @@ const index = ({ navigation, route }) => {
                   <>
                   <View key={item}>
                   <TouchableOpacity onPress={() => viewer()}>
+                  <Modal 
+                   visible={modal}>
+                  <View
+                   style={{ flex: 1 ,
+                    
+                   }}>
+                  <Text>Hello!</Text>
+                  <ScrollView
+              horizontal={true}
+              style={{ width: '100%', height: '100%' }}
+            >
+              <FlatGrid
+                itemDimension={130}
+                data={Item.images}
+                style={{ marginTop: 10, flex: 1 }}
+                // staticDimension={300}
+                // fixed
+                spacing={10}
+                renderItem={({ item }) => (
+                  <View key={item}>
+                    <Image
+                      source={{
+                        uri: 'http://192.168.2.122:8080/' + item,
+                      }}
+                      style={{
+                        resizeMode: 'cover',
+                        height: 130,
+                        borderRadius: 10,
+                      }}
+                    />
+                  </View>
+                )}
+              />
+            </ScrollView>
+                  <Button title="Hide modal" onPress={toggleModal} />
+
+
+                
+                  </View>
+                   </Modal>
 
                     <Image
-                    onPress={() => {
-                      console.log("22222222222222222222222222222222222222222222222222222222222222222222222")
-                    }}
+
                       source={{
                         uri: 'http://192.168.2.122:8080/' + item.images[0],
                       }}
@@ -561,6 +615,16 @@ const index = ({ navigation, route }) => {
             >
               <Text white>Download Brochure</Text>
             </TouchableOpacity>
+            {/* <Modal
+        animationType="slide"
+        transparent={true}
+        visible={true}
+        // onRequestClose={() => {
+        //   Alert.alert("Modal has been closed.");
+        //   setModalVisible(!modal);
+        // }}
+      >
+        </Modal> */}
           </View>
           
         </>
